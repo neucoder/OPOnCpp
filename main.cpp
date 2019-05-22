@@ -1,13 +1,12 @@
 #include <iostream>
-#include <string>
-#include <cstdlib>
+#include "cpp/math/MathFun.hxx"
 
 using namespace std;
 
 int main()
 {
-    string s = "123";
-    cout << s << endl;
-    cout << "Hello, World!" << endl;
+    testMath();
+    cout << "test" << endl;
+    cout << "test" << endl;
     return 0;
 }
