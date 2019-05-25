@@ -10,9 +10,11 @@ aux_source_directory(. SRC)
 
 # 添加子目录
 add_subdirectory(cpp/math)
+add_subdirectory(cpp/GraphTheoryAndAlgorithm)
+
 
 add_executable(main ${SRC})
 
 
 # 添加链接库
-target_link_libraries(main MathFuns)
+target_link_libraries(main MathFuns GraphLib)

@@ -22,7 +22,7 @@
  * 0 2 2 1 2 1 1
  *
  * */
-
+/*
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -93,4 +93,4 @@ int main()
         printf("\n");
     }
     return 0;
-}
+}*/
