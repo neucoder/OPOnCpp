@@ -2,15 +2,14 @@
 #include "cpp/math/MathFun.hxx"
 #include "cpp/GraphTheoryAndAlgorithm/MST.hxx"
 #include "cpp/math/mmath.hxx"
-
+#include "cpp/Algorithm/beibao.hxx"
 using namespace std;
 
 int main()
 {
 
-    //test_other();
-    test_Kruskal_MST();
-    //testMath();
+
+    testBei();
     getchar();
     return 0;
 }
