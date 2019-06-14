@@ -17,10 +17,11 @@ aux_source_directory(. SRC)
 add_subdirectory(cpp/math)
 add_subdirectory(cpp/GraphTheoryAndAlgorithm)
 add_subdirectory(cpp/Algorithm)
+add_subdirectory(cpp/QT)
 
 
 add_executable(main ${SRC})
 
 
 # 添加链接库
-target_link_libraries(main MathFuns GraphLib BeiBao)
+target_link_libraries(main MathFuns GraphLib BeiBao QT_Acc)

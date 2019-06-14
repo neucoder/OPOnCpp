@@ -64,7 +64,7 @@ void Beibao::solve()
             }
         }
     }
-
+    cout << endl;
     print();
 }
 

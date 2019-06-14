@@ -1,15 +1,13 @@
 #include <iostream>
-#include "cpp/math/MathFun.hxx"
-#include "cpp/GraphTheoryAndAlgorithm/MST.hxx"
-#include "cpp/math/mmath.hxx"
-#include "cpp/Algorithm/beibao.hxx"
+#include "cpp/QT/Account.hxx"
 using namespace std;
+
 
 int main()
 {
 
-
-    testBei();
+    cout << "中文" << endl;
+    testAcc();
     getchar();
     return 0;
 }
