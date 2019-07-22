@@ -7,6 +7,7 @@
 
 using namespace std;
 
+
 void testBei()
 {
     int v[5] = {0, 1, 3, 5, 9};
@@ -64,7 +65,7 @@ void Beibao::solve()
             }
         }
     }
-
+    cout << endl;
     print();
 }
 

@@ -1,15 +1,18 @@
 #include <iostream>
-#include "cpp/math/MathFun.hxx"
 #include "cpp/GraphTheoryAndAlgorithm/MST.hxx"
-#include "cpp/math/mmath.hxx"
 #include "cpp/Algorithm/beibao.hxx"
+#include "cpp/Algorithm/GA.hxx"
+#include "cpp/math/mathProblem.hxx"
+#include <vector>
 using namespace std;
+
 
 int main()
 {
 // test
 
-    testBei();
+    string str = "abc";
+    powerSet("abc");
     getchar();
     return 0;
 }
